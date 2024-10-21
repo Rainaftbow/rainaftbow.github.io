@@ -1,2 +1,0 @@
-# rainaftbow.github.io
-Blog

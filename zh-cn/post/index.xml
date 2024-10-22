@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 22 Oct 2024 12:27:24 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 22 Oct 2024 12:27:24 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
 &lt;/h2>&lt;p>Git是目前世界上最先进的分布式版本控制系统，由Linux的创始人Linus创建。&lt;/p>
-&lt;h2 id="git基础知识">GIT基础知识
+&lt;h2 id="git基础知识">Git基础知识
 &lt;/h2>&lt;h3 id="文件系统">文件系统：
 &lt;/h3>&lt;p>我们可以把硬盘理解成一本汉语词典，词典前面的目录索引就是文件系统，能帮助我们快速找到文件内容的具体位置。&lt;/p>
 &lt;p>通常我们也只会通过索引去找文件，windows中的我的电脑就是一个索引系统，索引里面没有的文件我们就 “找不到”。&lt;/p>
@@ -74,13 +74,13 @@ rm -rf .git #删除项目中的git仓库
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="git命令执行过程">GIT命令执行过程
+&lt;h2 id="git命令执行过程">Git命令执行过程
 &lt;/h2>&lt;div align="center">
 &lt;img src="2.png" alt="git-process" width="650" height="auto">
 &lt;/div>
 &lt;p>参考:&lt;a class="link" href="https://www.cnblogs.com/jiangzhaowei/p/7879916.html" target="_blank" rel="noopener"
 >Git 仓库结构 （一）&lt;/a>&lt;/p>
-&lt;h2 id="git作弊表">GIT&amp;quot;作弊&amp;quot;表
+&lt;h2 id="git备忘录">Git备忘录
 &lt;/h2>&lt;p>&lt;font size = 5>&lt;a class="link" href="git-cheat-sheet.pdf" >PDF版&lt;/a>&lt;/font>
 &lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/git-cheat-sheet.png"
 width="1706"

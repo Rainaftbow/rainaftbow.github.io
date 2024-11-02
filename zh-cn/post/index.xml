@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Nov 2024 19:05:19 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>AList</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post AList" />&lt;h2 id="前言">前言
 &lt;/h2>&lt;p>学校的操作系统实验资料通过腾讯微云分享&lt;br>
-但之前不怎么用腾讯微云（百度、夸克、阿里都有账号），
-故于实验操作环境安装等待中思索———&lt;br>
-&lt;font size=5>有没有软件能把所有网盘统一起来管理？ &lt;/font>&lt;br>
+但之前不怎么用腾讯微云（百度、夸克、阿里都有账号）&lt;br>
+故于实验环境安装等待中思索———&lt;br>
+&lt;font size=5>有没有方法能把所有云盘统一起来管理？&lt;/font>&lt;br>
 于是我找到了Alist&lt;/p>
 &lt;h2 id="alist简介">Alist简介
 &lt;/h2>&lt;p>Alist， 一个支持多种存储的文件列表程序。&lt;/p>

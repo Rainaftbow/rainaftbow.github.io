@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 22 Oct 2024 12:27:24 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Nov 2024 19:05:19 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>AList</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post AList" />&lt;h2 id="前言">前言
+&lt;/h2>&lt;p>学校的操作系统实验资料通过腾讯微云分享&lt;br>
+但之前不怎么用腾讯微云（百度、夸克、阿里都有账号），
+故于实验操作环境安装等待中思索———&lt;br>
+&lt;font size=5>有没有软件能把所有网盘统一起来管理？ &lt;/font>&lt;br>
+于是我找到了Alist&lt;/p>
+&lt;h2 id="alist简介">Alist简介
+&lt;/h2>&lt;p>Alist， 一个支持多种存储的文件列表程序。&lt;/p>
+&lt;h2 id="alist安装">Alist安装
+&lt;/h2>&lt;h3 id="桌面版付费">桌面版（付费）
+&lt;/h3>&lt;p>定价如下：&lt;/p>
+&lt;div align="center">
+&lt;img src="image.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
+&lt;h3 id="命令行版免费">命令行版（免费）
+&lt;/h3>&lt;p>定价如下：&lt;/p>
+&lt;div align="center">
+&lt;img src="image-1.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
+&lt;h3 id="安装过程">安装过程
+&lt;/h3>&lt;p>1、官网下载对应版本的CLI
+&lt;a class="link" href="https://github.com/AlistGo/alist/releases" target="_blank" rel="noopener"
+>https://github.com/AlistGo/alist/releases&lt;/a>&lt;/p>
+&lt;p>2、在exe目录下输入 &lt;code>alist.exe admin set 你的密码&lt;/code> 初始化管理员账号
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/image-2.png"
+width="1706"
+height="273"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/image-2_hu8720396872239024122.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/image-2_hu7145364742935569611.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="624"
+data-flex-basis="1499px"
+>&lt;/p>
+&lt;p>3、&lt;code>alist.exe server&lt;/code> 启动本地服务
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/image-3.png"
+width="1706"
+height="466"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/image-3_hu7200765705303474647.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/image-3_hu430289615701596794.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="366"
+data-flex-basis="878px"
+>&lt;/p>
+&lt;p>4、打开浏览器地址栏输入 &lt;code>localhost:5442&lt;/code> 打开管理页面
+（图中所示是我配置好的，第一次打开啥都没有）
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/image-4.png"
+width="2560"
+height="1369"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/image-4_hu15348187378882826995.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/image-4_hu13524091480868518315.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="186"
+data-flex-basis="448px"
+>&lt;/p>
+&lt;p>5、添加云盘
+官方文档很详细（yin wei wo lan）
+&lt;a class="link" href="https://alist.nn.ci/zh/guide/drivers/common.html" target="_blank" rel="noopener"
+>https://alist.nn.ci/zh/guide/drivers/common.html&lt;/a>&lt;/p>
+&lt;h2 id="tip无服务器部署替代方法">Tip：无服务器部署替代方法
+&lt;/h2>&lt;p>由于之前买的腾讯云到期，无法部署到云，每次使用都要在本地启动服务，很麻烦。&lt;/p>
+&lt;p>通过添加开机自启可解决这个问题&lt;/p>
+&lt;p>1、在有alist.exe的目录下创建一个bat文件&lt;/p>
+&lt;p>2、然后写入内容 &lt;code>powershell Start-Process -WindowStyle hidden -FilePath .\alist.exe server&lt;/code>&lt;/p>
+&lt;p>3、再对着bat文件右键创建 &amp;ldquo;桌面快捷方式&amp;rdquo;&lt;/p>
+&lt;p>4、win+r 打开运行 输入 shell:startup 回车后会打开一个目录, 把创建的快捷方式拖进去&lt;/p></description></item><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
 &lt;/h2>&lt;p>Git是目前世界上最先进的分布式版本控制系统，由Linux的创始人Linus创建。&lt;/p>
 &lt;h2 id="git基础知识">Git基础知识
 &lt;/h2>&lt;h3 id="文件系统">文件系统：

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Nov 2024 19:05:19 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>AList</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post AList" />&lt;h2 id="前言">前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 14 Nov 2024 10:36:05 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>个人云盘管理平台</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post 个人云盘管理平台" />&lt;h2 id="前言">前言
 &lt;/h2>&lt;p>学校的操作系统实验资料通过腾讯微云分享&lt;br>
 但之前不怎么用腾讯微云（百度、夸克、阿里都有账号）&lt;br>
 故于实验环境安装等待中思索———&lt;br>
@@ -56,13 +56,47 @@ data-flex-basis="448px"
 官方文档很详细（yin wei wo lan）
 &lt;a class="link" href="https://alist.nn.ci/zh/guide/drivers/common.html" target="_blank" rel="noopener"
 >https://alist.nn.ci/zh/guide/drivers/common.html&lt;/a>&lt;/p>
-&lt;h2 id="tip无服务器部署替代方法">Tip：无服务器部署替代方法
-&lt;/h2>&lt;p>由于之前买的腾讯云到期，无法部署到云，每次使用都要在本地启动服务，很麻烦。&lt;/p>
+&lt;h2 id="tips">Tips：
+&lt;/h2>&lt;h3 id="无服务器部署替代方法">无服务器部署替代方法
+&lt;/h3>&lt;p>由于之前买的腾讯云到期，无法部署到云，每次使用都要在本地启动服务，很麻烦。&lt;/p>
 &lt;p>通过添加开机自启可解决这个问题&lt;/p>
 &lt;p>1、在有alist.exe的目录下创建一个bat文件&lt;/p>
 &lt;p>2、然后写入内容 &lt;code>powershell Start-Process -WindowStyle hidden -FilePath .\alist.exe server&lt;/code>&lt;/p>
 &lt;p>3、再对着bat文件右键创建 &amp;ldquo;桌面快捷方式&amp;rdquo;&lt;/p>
-&lt;p>4、win+r 打开运行 输入 shell:startup 回车后会打开一个目录, 把创建的快捷方式拖进去&lt;/p></description></item><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
+&lt;p>4、win+r 打开运行 输入 shell:startup 回车后会打开一个目录, 把创建的快捷方式拖进去&lt;/p>
+&lt;h3 id="云盘挂载">云盘挂载
+&lt;/h3>&lt;p>为能够更方便使用，可将云盘挂载到本地。&lt;/p>
+&lt;pre>&lt;code>云盘本地挂载是一种将云存储服务直接映射到本地文件系统的方法
+&lt;/code>&lt;/pre>
+&lt;p>步骤：&lt;br>
+1、安装RaiDrive&lt;br>
+RaiDrive下载地址：https://www.raidrive.com/download&lt;/p>
+&lt;p>2、安装完后，打开软件可以看到这个界面，点击添加&lt;br>
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/image-7.png"
+width="704"
+height="514"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/image-7_hu18446191340869685198.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/image-7_hu7874360841452133260.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="328px"
+>&lt;/p>
+&lt;p>3、按图中标注配置
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/image-8.png"
+width="729"
+height="545"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/image-8_hu6045475881096701476.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/image-8_hu6453463230499259215.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="321px"
+>&lt;/p>
+&lt;p>4、最后点击连接，连接成功后挂载的本地文件夹会弹窗&lt;br>
+（8 EB = 8,000,000,000 GB）&lt;br>
+（是的，你没看错😂）&lt;/p>
+&lt;div align="center">
+&lt;img src="image-9.png" alt="git-structure" width="350" height="auto">
+&lt;/div></description></item><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
 &lt;/h2>&lt;p>Git是目前世界上最先进的分布式版本控制系统，由Linux的创始人Linus创建。&lt;/p>
 &lt;h2 id="git基础知识">Git基础知识
 &lt;/h2>&lt;h3 id="文件系统">文件系统：

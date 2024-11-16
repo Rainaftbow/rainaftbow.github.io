@@ -57,14 +57,7 @@ data-flex-basis="448px"
 &lt;a class="link" href="https://alist.nn.ci/zh/guide/drivers/common.html" target="_blank" rel="noopener"
 >https://alist.nn.ci/zh/guide/drivers/common.html&lt;/a>&lt;/p>
 &lt;h2 id="tips">Tips：
-&lt;/h2>&lt;h3 id="无服务器部署替代方法">无服务器部署替代方法
-&lt;/h3>&lt;p>由于之前买的腾讯云到期，无法部署到云，每次使用都要在本地启动服务，很麻烦。&lt;/p>
-&lt;p>通过添加开机自启可解决这个问题&lt;/p>
-&lt;p>1、在有alist.exe的目录下创建一个bat文件&lt;/p>
-&lt;p>2、然后写入内容 &lt;code>powershell Start-Process -WindowStyle hidden -FilePath .\alist.exe server&lt;/code>&lt;/p>
-&lt;p>3、再对着bat文件右键创建 &amp;ldquo;桌面快捷方式&amp;rdquo;&lt;/p>
-&lt;p>4、win+r 打开运行 输入 shell:startup 回车后会打开一个目录, 把创建的快捷方式拖进去&lt;/p>
-&lt;h3 id="云盘挂载">云盘挂载
+&lt;/h2>&lt;h3 id="1云盘挂载">1、云盘挂载
 &lt;/h3>&lt;p>为能够更方便使用，可将云盘挂载到本地。&lt;/p>
 &lt;pre>&lt;code>云盘本地挂载是一种将云存储服务直接映射到本地文件系统的方法
 &lt;/code>&lt;/pre>
@@ -96,7 +89,78 @@ data-flex-basis="321px"
 （是的，你没看错😂）&lt;/p>
 &lt;div align="center">
 &lt;img src="image-9.png" alt="git-structure" width="350" height="auto">
-&lt;/div></description></item><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
+&lt;/div>
+&lt;h3 id="2无服务器部署替代方法">2、无服务器部署替代方法
+&lt;/h3>&lt;p>由于之前买的腾讯云到期，无法部署到云，每次使用都要在本地启动服务，很麻烦。&lt;/p>
+&lt;p>通过添加开机自启可解决这个问题&lt;/p>
+&lt;p>1、在有alist.exe的目录下创建一个vbs文件&lt;/p>
+&lt;p>2、然后写入内容&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Dim ws
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Set ws = Wscript.CreateObject(&amp;#34;Wscript.Shell&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ws.run &amp;#34;cmd /c .\alist.exe server&amp;#34;,vbhide
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;pre>&lt;code>注意把alist.exe路径改为你的路径!
+&lt;/code>&lt;/pre>
+&lt;p>3、再打开window的计划任务程序，具体步骤如下图&lt;/p>
+&lt;p>①输入任务名
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs.png"
+width="1513"
+height="1032"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs_hu11425108222909426358.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs_hu2045100347018439864.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="351px"
+>&lt;/p>
+&lt;p>②创建任务
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-1.png"
+width="1507"
+height="1033"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-1_hu448370460675667717.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs-1_hu5965564099958215745.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="145"
+data-flex-basis="350px"
+>&lt;/p>
+&lt;p>③触发器设置
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-2.png"
+width="1510"
+height="1029"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-2_hu7872085807925218313.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs-2_hu8698399671871875039.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="352px"
+>&lt;/p>
+&lt;p>④操作设置，程序路径为上述vbs脚本路径
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-3.png"
+width="1510"
+height="1030"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-3_hu15750307655085214674.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs-3_hu1770425066735889703.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="351px"
+>&lt;/p>
+&lt;p>⑤将RaiDrive软件中的随系统自动启动打开
+&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/raidrive.png"
+width="1093"
+height="937"
+srcset="https://Rainaftbow.github.io/zh-cn/p/alist/raidrive_hu9242763826311777201.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/raidrive_hu17421978345512411287.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="116"
+data-flex-basis="279px"
+>&lt;/p>
+&lt;p>⑥设置完成，亲测此方法很稳&lt;/p></description></item><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
 &lt;/h2>&lt;p>Git是目前世界上最先进的分布式版本控制系统，由Linux的创始人Linus创建。&lt;/p>
 &lt;h2 id="git基础知识">Git基础知识
 &lt;/h2>&lt;h3 id="文件系统">文件系统：

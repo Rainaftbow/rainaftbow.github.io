@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 16 Nov 2024 14:34:02 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>个人云盘管理平台</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post 个人云盘管理平台" />&lt;h2 id="前言">前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 下小雨的Blog</title><link>https://Rainaftbow.github.io/zh-cn/post/</link><description>Recent content in Posts on 下小雨的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 16 Nov 2024 14:36:57 +0800</lastBuildDate><atom:link href="https://Rainaftbow.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>个人云盘管理平台</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post 个人云盘管理平台" />&lt;h2 id="前言">前言
 &lt;/h2>&lt;p>学校的操作系统实验资料通过腾讯微云分享&lt;br>
 但之前不怎么用腾讯微云（百度、夸克、阿里都有账号）&lt;br>
 故于实验环境安装等待中思索———&lt;br>
@@ -57,7 +57,7 @@ data-flex-basis="448px"
 &lt;a class="link" href="https://alist.nn.ci/zh/guide/drivers/common.html" target="_blank" rel="noopener"
 >https://alist.nn.ci/zh/guide/drivers/common.html&lt;/a>&lt;/p>
 &lt;h2 id="tips">Tips：
-&lt;/h2>&lt;h3 id="1云盘挂载">1、云盘挂载
+&lt;/h2>&lt;h3 id="云盘挂载">云盘挂载
 &lt;/h3>&lt;p>为能够更方便使用，可将云盘挂载到本地。&lt;/p>
 &lt;pre>&lt;code>云盘本地挂载是一种将云存储服务直接映射到本地文件系统的方法
 &lt;/code>&lt;/pre>
@@ -90,7 +90,7 @@ data-flex-basis="321px"
 &lt;div align="center">
 &lt;img src="image-9.png" alt="git-structure" width="350" height="auto">
 &lt;/div>
-&lt;h3 id="2无服务器部署替代方法">2、无服务器部署替代方法
+&lt;h3 id="无服务器部署替代方法">无服务器部署替代方法
 &lt;/h3>&lt;p>由于之前买的腾讯云到期，无法部署到云，每次使用都要在本地启动服务，很麻烦。&lt;/p>
 &lt;p>通过添加开机自启可解决这个问题&lt;/p>
 &lt;p>1、在有alist.exe的目录下创建一个vbs文件&lt;/p>
@@ -150,7 +150,7 @@ class="gallery-image"
 data-flex-grow="146"
 data-flex-basis="351px"
 >&lt;/p>
-&lt;p>⑤将RaiDrive软件中的随系统自动启动打开
+&lt;p>⑤将RaiDrive设置中的随系统自动启动打开
 &lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/raidrive.png"
 width="1093"
 height="937"

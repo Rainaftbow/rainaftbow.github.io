@@ -111,56 +111,26 @@ data-flex-basis="321px"
 &lt;/div>&lt;pre>&lt;code>注意把alist.exe路径改为你的路径!
 &lt;/code>&lt;/pre>
 &lt;p>3、再打开window的计划任务程序，具体步骤如下图&lt;/p>
-&lt;p>①输入任务名
-&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs.png"
-width="1513"
-height="1032"
-srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs_hu11425108222909426358.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs_hu2045100347018439864.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="146"
-data-flex-basis="351px"
->&lt;/p>
-&lt;p>②创建任务
-&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-1.png"
-width="1507"
-height="1033"
-srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-1_hu448370460675667717.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs-1_hu5965564099958215745.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="145"
-data-flex-basis="350px"
->&lt;/p>
-&lt;p>③触发器设置
-&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-2.png"
-width="1510"
-height="1029"
-srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-2_hu7872085807925218313.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs-2_hu8698399671871875039.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="146"
-data-flex-basis="352px"
->&lt;/p>
-&lt;p>④操作设置，程序路径为上述vbs脚本路径
-&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-3.png"
-width="1510"
-height="1030"
-srcset="https://Rainaftbow.github.io/zh-cn/p/alist/vbs-3_hu15750307655085214674.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/vbs-3_hu1770425066735889703.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="146"
-data-flex-basis="351px"
->&lt;/p>
-&lt;p>⑤将RaiDrive设置中的随系统自动启动打开
-&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/raidrive.png"
-width="1093"
-height="937"
-srcset="https://Rainaftbow.github.io/zh-cn/p/alist/raidrive_hu9242763826311777201.png 480w, https://Rainaftbow.github.io/zh-cn/p/alist/raidrive_hu17421978345512411287.png 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="116"
-data-flex-basis="279px"
->&lt;/p>
+&lt;p>①输入任务名&lt;/p>
+&lt;div align="center">
+&lt;img src="vbs.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
+&lt;p>②创建任务&lt;/p>
+&lt;div align="center">
+&lt;img src="vbs-1.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
+③触发器设置
+&lt;div align="center">
+&lt;img src="vbs-2.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
+&lt;p>④操作设置，程序路径为上述vbs脚本路径&lt;/p>
+&lt;div align="center">
+&lt;img src="vbs-3.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
+&lt;p>⑤将RaiDrive设置中的随系统自动启动打开&lt;/p>
+&lt;div align="center">
+&lt;img src="raidrive.png" alt="git-structure" width="500" height="auto">
+&lt;/div>
 &lt;p>⑥设置完成，亲测此方法很稳&lt;/p></description></item><item><title>Git</title><link>https://Rainaftbow.github.io/zh-cn/p/git-learn/</link><pubDate>Tue, 22 Oct 2024 12:27:24 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/git-learn/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/cover.jpg" alt="Featured image of post Git" />&lt;h2 id="git介绍">Git介绍
 &lt;/h2>&lt;p>Git是目前世界上最先进的分布式版本控制系统，由Linux的创始人Linus创建。&lt;/p>
 &lt;h2 id="git基础知识">Git基础知识

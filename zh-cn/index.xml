@@ -57,10 +57,10 @@ class="gallery-image"
 data-flex-grow="150"
 data-flex-basis="360px"
 >&lt;/p></description></item><item><title>个人云盘管理平台</title><link>https://Rainaftbow.github.io/zh-cn/p/alist/</link><pubDate>Sat, 02 Nov 2024 19:05:19 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/alist/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/cover.png" alt="Featured image of post 个人云盘管理平台" />&lt;h2 id="前言">前言
-&lt;/h2>&lt;p>学校的操作系统实验资料通过腾讯微云分享&lt;br>
-但之前不怎么用腾讯微云（百度、夸克、阿里都有账号）&lt;br>
-故于实验环境安装等待中思索———&lt;br>
-&lt;font size=5>有没有方法能把所有云盘统一起来管理？&lt;/font>&lt;br>
+&lt;/h2>&lt;p>学校的操作系统实验资料通过腾讯微云分享
+但之前不怎么用腾讯微云（百度、夸克、阿里都有账号）
+故于实验环境安装等待中思索———
+&lt;font size=5>有没有方法能把所有云盘统一起来管理？&lt;code>&amp;lt;/font&amp;gt;&lt;/code>
 于是找到了Alist&lt;/p>
 &lt;h2 id="alist简介">Alist简介
 &lt;/h2>&lt;p>Alist， 一个支持多种存储的文件列表程序。&lt;/p>
@@ -119,11 +119,11 @@ data-flex-basis="448px"
 &lt;/h3>&lt;p>为能够更方便使用，可将云盘挂载到本地。&lt;/p>
 &lt;pre>&lt;code>云盘本地挂载是一种将云存储服务直接映射到本地文件系统的方法
 &lt;/code>&lt;/pre>
-&lt;p>步骤：&lt;br>
-1、安装RaiDrive&lt;br>
+&lt;p>步骤：
+1、安装RaiDrive
 RaiDrive下载地址 &lt;a class="link" href="https://www.raidrive.com/download" target="_blank" rel="noopener"
 >https://www.raidrive.com/download&lt;/a>&lt;/p>
-&lt;p>2、安装完后，打开软件可以看到这个界面，点击添加&lt;br>
+&lt;p>2、安装完后，打开软件可以看到这个界面，点击添加
 &lt;img src="https://Rainaftbow.github.io/zh-cn/p/alist/image-7.png"
 width="704"
 height="514"
@@ -143,8 +143,8 @@ class="gallery-image"
 data-flex-grow="133"
 data-flex-basis="321px"
 >&lt;/p>
-&lt;p>4、最后点击连接，连接成功后挂载的本地文件夹会弹窗&lt;br>
-（8 EB = 8,000,000,000 GB）&lt;br>
+&lt;p>4、最后点击连接，连接成功后挂载的本地文件夹会弹窗
+（8 EB = 8,000,000,000 GB）
 （是的，你没看错😂）&lt;/p>
 &lt;div align="center">
 &lt;img src="image-9.png" alt="git-structure" width="350" height="auto">
@@ -209,7 +209,7 @@ data-flex-basis="321px"
 &lt;h3 id="分支">分支：
 &lt;/h3>&lt;p>分支其实就是上面说到的版本日志,一个分支就是一个版本分组，每个分支记录该分支上的所有HEAD，“分支-&amp;gt;HEAD-&amp;gt;快照-&amp;gt;仓库文件”&lt;/p>
 &lt;h2 id="命令">命令
-&lt;/h2>&lt;p>&lt;font size="4"> Git的基本命令:&lt;/p>
+&lt;/h2>&lt;p>&lt;code>&amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&lt;/code> Git的基本命令:&lt;/p>
 &lt;pre>&lt;code>git init # 初始化，git从此开始追踪每一个更改
 git status # 查看工作区与暂存区状态
 git add # 从工作区添加到暂存区
@@ -219,8 +219,8 @@ git commit [-m] [string] [--amend] # 暂存区提交到本地仓库
 git log [--all] [--graph] # 查看日志消息
 git config --global user.name &amp;quot;name&amp;quot; # 设置名字
 git config --global user.name &amp;quot;xxx@email.com&amp;quot; # 设置邮箱
-git checkout &amp;lt;hash&amp;gt; # 所有文件切换到指定的历史版本（创建新的分支）
-git checkout &amp;lt;hash&amp;gt; &amp;lt;file&amp;gt; # 指定文件切换到指定的历史版本（不会创建新的分支）
+git checkout`&amp;lt;hash&amp;gt;` # 所有文件切换到指定的历史版本（创建新的分支）
+git checkout`&amp;lt;hash&amp;gt;` `&amp;lt;file&amp;gt;` # 指定文件切换到指定的历史版本（不会创建新的分支）
 杂项:
 git config --global alias.s &amp;quot;status&amp;quot; # 设置快捷方式(很有用，化&amp;quot;commit -m&amp;quot;为&amp;quot;cm&amp;quot;)
 .gitignore # 文件记录哪些文件要忽略(比如其自身与本文档)
@@ -272,7 +272,7 @@ rm -rf .git #删除项目中的git仓库
 &lt;p>参考:&lt;a class="link" href="https://www.cnblogs.com/jiangzhaowei/p/7879916.html" target="_blank" rel="noopener"
 >Git 仓库结构 （一）&lt;/a>&lt;/p>
 &lt;h2 id="git备忘录">Git备忘录
-&lt;/h2>&lt;p>&lt;font size = 5>&lt;a class="link" href="git-cheat-sheet.pdf" >PDF版&lt;/a>&lt;/font>
+&lt;/h2>&lt;p>&lt;font size = 5>&lt;a class="link" href="git-cheat-sheet.pdf" >PDF版&lt;/a> &lt;code>&amp;lt;/font&amp;gt;&lt;/code>
 &lt;img src="https://Rainaftbow.github.io/zh-cn/p/git-learn/git-cheat-sheet.png"
 width="1706"
 height="4836"
@@ -282,8 +282,8 @@ class="gallery-image"
 data-flex-grow="35"
 data-flex-basis="84px"
 >
-&lt;/font>
-&lt;/font>&lt;/p></description></item><item><title>图集[1]</title><link>https://Rainaftbow.github.io/zh-cn/p/4kpics/</link><pubDate>Tue, 22 Oct 2024 01:33:45 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/4kpics/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/4kpics/10.png" alt="Featured image of post 图集[1]" />&lt;h2 id="自然">自然
+&lt;code>&amp;lt;/font&amp;gt;&lt;/code>
+&lt;code>&amp;lt;/font&amp;gt;&lt;/code>&lt;/p></description></item><item><title>图集[1]</title><link>https://Rainaftbow.github.io/zh-cn/p/4kpics/</link><pubDate>Tue, 22 Oct 2024 01:33:45 +0800</pubDate><guid>https://Rainaftbow.github.io/zh-cn/p/4kpics/</guid><description>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/4kpics/10.png" alt="Featured image of post 图集[1]" />&lt;h2 id="自然">自然
 &lt;/h2>&lt;p>&lt;img src="https://Rainaftbow.github.io/zh-cn/p/4kpics/1.png"
 width="4096"
 height="3070"
